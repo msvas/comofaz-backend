@@ -12,7 +12,10 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
-gem 'devise_token_auth', '>= 1.2.0', git: "https://github.com/lynndylanhurley/devise_token_auth"
+gem "devise"
+gem "devise_token_auth", ">= 1.2.0", git: "https://github.com/lynndylanhurley/devise_token_auth"
+gem "rack-cors"
+gem "active_model_serializers"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
